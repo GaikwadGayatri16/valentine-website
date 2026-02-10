@@ -5,12 +5,7 @@ HTML, CSS, and JavaScript.
 
 This website showcases **7 days of Valentine Week** with beautiful images, sweet messages, animations, and interactive navigation.
 
----
 
-## 🌹 Live Demo  
-👉 https://gaikwadgayatri16.github.io/valentine-website/
-
----
 
 ## ✨ Features
 
