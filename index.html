@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Valentine Week — A Love Story</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <!-- HERO SECTION - FULL SCREEN ROMANCE -->
+  <header class="hero-fullscreen" id="top">
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+     
+      </div>
+
+      <!-- MAIN ATTRACTION - I LOVE YOU -->
+      <div class="love-you-container">
+        <div class="love-you-backdrop"></div>
+        <h1 class="i-love-you-text"> Love You So Much...❤️</h1>
+        <p class="love-subtitle">💗 Forever & Always 💗</p>
+
+        <!-- Creative Text Section - 3 Boxes -->
+        <div class="creative-text-section">
+          <div class="text-box left-text">
+            <p class="creative-msg">✨ Every moment with you feels like a dream ✨</p>
+            
+          </div>
+          <div class="text-box center-text">
+            <p class="creative-msg-center">💕 You are my heartbeat 💕</p>
+          </div>
+          <div class="text-box right-text">
+            <p class="creative-msg">✨ Seven days of love for you ✨</p>
+            
+          </div>
+        </div>
+
+        <!-- Buttons Section -->
+        <div class="hero-cta">
+          <button class="btn-primary pulse" id="startJourney">Begin the Journey ✨</button>
+          
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>↓</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- CAROUSEL SECTION -->
+  <main class="carousel-section" id="week">
+    <div class="carousel-header">
+      <h2 class="section-title">Valentine Week</h2>
+      <p class="carousel-subtitle">Seven Days of Love</p>
+    </div>
+
+    <!-- Featured Day Display -->
+    <div class="featured-day-container">
+      <div class="featured-day" id="featuredDay">
+        <!-- Populated by JS -->
+      </div>
+      <div class="carousel-counter">
+        <span id="dayCounter">1</span> / 7
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="carousel-controls">
+      <button id="prevDay" class="carousel-btn">← Previous</button>
+      <button id="nextDay" class="carousel-btn">Next →</button>
+    </div>
+
+    <!-- Mini Carousel - Day Selector -->
+    <div class="mini-carousel">
+      <div class="mini-cards" id="miniCarousel">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+
+    <section class="memories-section">
+  <h2 class="memories-title">Our Memories 💖</h2>
+
+  <div class="memories-carousel">
+    <div class="memories-track">
+      <div class="memory-card">
+      <img src="assets/m1.jpg" alt="Memory 1">
+    </div>
+    <div class="memory-card">
+      <img src="assets/m5.jpg" alt="Memory 2">
+    </div>
+    <div class="memory-card">
+      <img src="assets/m3.jpg" alt="Memory 3">
+    </div>
+    <div class="memory-card">
+      <img src="assets/m4.jpg" alt="Memory 4">
+    </div>
+     <div class="memory-card">
+      <img src="assets/m2.jpg" alt="Memory 5">
+    </div>
+    <div class="memory-card">
+      <img src="assets/m6.jpg" alt="Memory 6">
+    </div>
+  </div>
+  </divdiv>
+</section>
+
+
+    <!-- All Days Grid (Hidden on small screens) -->
+    <div class="all-days-section">
+      <h3 class="all-days-title">View All 7 Days</h3>
+      <div class="days-grid" id="daysGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p class="footer-text">Made with all my love • Forever yours ❤️</p>
+    </footer>
+  </main>
+
+  <audio id="bgMusic" src="assets/music/romantic.mp3" loop preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
